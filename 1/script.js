@@ -58,7 +58,7 @@ function updateProgress(progress){
     imageProgress.value = progress;
 }
 
-imageLoader.LoadImage('https://github.com/gharishkumar/PhotoMosaic/raw/main/nimi.jpg', updateProgress)
+imageLoader.LoadImage('https://gharishkumar.github.io/PhotoMosaic/nimi.jpg', updateProgress)
             .then(image => {
                 Nimi.src = image;
                 let load = document.getElementById('loading');
